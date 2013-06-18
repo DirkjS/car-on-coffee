@@ -8,16 +8,16 @@ Just an experiment to use sensor data from a phone to drive a four motor car. Th
 ###To use it: 
 
 Get the source: 
-'''
+```
 git clone git@github.com:DirkjS/car-on-coffee.git
 cd car-on-coffee
 npm install
-'''
+```
 
 Change the serialport to whatever your system uses. Load firmata on an arduino. Wire the motordrivers as described in 4motorcar.coffee. Start it up with 
-'''
+```
 coffee app.coffee
-'''
+```
 There is a timeout to wait for the firmata connection. There is probably a better way of doing this. Access the node ip address at port 8080 and choose the orientation sensor. The connection should in the terminal and after choosing the orientation sensor the motors should start running, unless the phone or ipad is complete horizontal. 
 
 ###Contact 
